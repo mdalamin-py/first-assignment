@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header {
@@ -12,7 +13,7 @@
     padding: 275px 131px 0px 840px;
     color: #151414;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 30px;
     text-align: right;
 }
 
@@ -20,6 +21,7 @@
     padding: 10px 131px 10px 975px;
     font-weight: 400;
     font-size: 16px;
+    font-style: bold;
     text-align: right;
 }
 
@@ -28,8 +30,135 @@
     margin-top: 10px;
     padding: 18px;
     border-radius: 7px;
-    background: #F15B22;
+    background: #eec334b7;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+}
+
+.img-item {
+    display: flex;
+    padding: 200px;
+}
+
+.img-title {
+    font-size: 50px;
+}
+
+.img-content {
+    padding-left: 130px;
+    padding-top: 150px;
+}
+
+.img-description {
+    padding-top: 24px;
+}
+
+.checkmark-description {
+    padding-top: 24px;
+}
+
+.plan-content {
+    display: flex;
+}
+
+.main-head-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mid-head-title {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-item {
+    text-align: center;
+    margin: 80px;
+}
+.info-description{
+    color: gray;
+}
+.calling-content{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 50px 0px;
+    background-position: top;
+}
+.calling-title{
+    padding-left: 250px;
+    padding-top: 74px;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.call-btn{
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 20px 30px 20px 30px;
+    font: bold;
+    font-size: 24px;
+    color: orange;
+}
+
+.feedback-section{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.feedback-content{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/icon4.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 30px;
+}
+.feedback-section textarea{
+    border-radius: 10px;
+    padding: 15px 50px 15px 50px;
+    margin-top: 40px;
+
+}
+
+.feedback-item{
+    margin-top: 100px;
+}
+.feedback-title{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+}
+.text-style{
+    color: orange;
+}
+.first-info{
+    border-radius: 10px;
+    padding: 20px 70px 20px 70px;
+    margin-top: 15px;
+}
+
+.second-info{
+    border-radius: 10px;
+    padding: 20px 70px 20px 70px;
+    margin-top: 15px;
+}
+.feedback-btn{
+    padding: 15px 40px 15px 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-right: 125px;
+    background-color: rgb(240, 228, 13);
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 200px 200px;
+}
+.footer{
+    background-color: #151414;
+    color: #FFFFFF;
 }
