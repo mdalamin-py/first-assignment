@@ -162,3 +162,42 @@
     background-color: #151414;
     color: #FFFFFF;
 }
+.main-content{
+    margin-top: 170px;
+}
+.main-title{
+    font-size: 45px;
+    font: bold;
+}
+.main-description{
+    margin-top: 15px;
+}
+.contact-section{
+    margin-top: 15px;
+}
+.icnon-section{
+    margin-top: 15px;
+    padding: 10px 15px 15px 0px;
+}
+.subscribe-section{
+    margin-top: 170px;
+}
+.subscribe-title{
+    font-size: 30px;
+    font: bold;
+}
+.subscribe-section input[type="email"]{
+    border-radius: 10px;
+    padding: 20px 45px 20px 45px;
+    background-color: #151414;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border-color: #FFFFFF;
+}
+.subsriber-btn{
+    border-radius: 7px;
+    padding: 15px 30px 15px 30px;
+    font: bold;
+    color: orange;
+    margin-top: 10px;
+}
